@@ -1002,7 +1002,7 @@
     "family": "KJS",
     "short": "Konq 4.13",
     "release": "2014-04-16",
-    "obsolete": true,
+    "obsolete": "very",
     "test_suites": [
       "es5",
       "non-standard"
@@ -1013,7 +1013,7 @@
     "family": "KJS",
     "short": "Konq 4.14",
     "release": "2014-08-20",
-    "obsolete": false,
+    "obsolete": true,
     "note_id": "khtml",
     "note_html": "Results are only applicable for the KHTML rendering engine.",
     "test_suites": [
