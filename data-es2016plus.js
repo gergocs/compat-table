@@ -3512,6 +3512,8 @@ exports.tests = [
           firefox115: false,
           firefox117: false,
           firefox118: false,
+          firefox133: false,
+          firefox134: true,
           safari11_1: false,
           safaritp: false,
           safari17: false,
@@ -3533,6 +3535,8 @@ exports.tests = [
           node22_0: false,
           firefox115: false,
           firefox130: false,
+          firefox133: false,
+          firefox134: true,
           safari17_6: false,
           safari18: false,
         }
@@ -7322,6 +7326,8 @@ exports.tests = [
           firefox115: false,
           firefox117: false,
           firefox118: false,
+          firefox133: false,
+          firefox134: true,
           safaritp: false,
           safari16_6: false,
           safari18: true,
@@ -7343,6 +7349,8 @@ exports.tests = [
           node22_0: false,
           firefox115: false,
           firefox130: false,
+          firefox133: false,
+          firefox134: true,
           safari17_6: false,
         }
       }
