@@ -966,6 +966,7 @@ exports.tests = [
   subtests: [
     {
       name: 'Uint8Array.toBase64()',
+      mdn: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toBase64',
       exec: function () {/*
         const arr = new Uint8Array([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]);
         return arr.toBase64() === "SGVsbG8gV29ybGQ=";
@@ -985,6 +986,7 @@ exports.tests = [
     },
     {
       name: 'Uint8Array.fromBase64()',
+      mdn: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromBase64',
       exec: function () {/*
         const arr1 = new Uint8Array([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]);
         const arr2 = Uint8Array.fromBase64("SGVsbG8gV29ybGQ=");
@@ -1006,6 +1008,7 @@ exports.tests = [
     },
     {
       name: 'Uint8Array.setFromBase64()',
+      mdn: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromBase64',
       exec: function () {/*
         const arr1 = new Uint8Array([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]);
         let arr2 = new Uint8Array(16);
@@ -1027,6 +1030,7 @@ exports.tests = [
     },
     {
       name: 'Uint8Array.toHex()',
+      mdn: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/toHex',
       exec: function () {/*
         const arr = new Uint8Array([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]);
         return arr.toHex() === "48656c6c6f20576f726c64";
@@ -1045,6 +1049,7 @@ exports.tests = [
     },
     {
       name: 'Uint8Array.fromHex()',
+      mdn: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/fromHex',
       exec: function () {/*
         const arr1 = new Uint8Array([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]);
         const arr2 = Uint8Array.fromHex("48656c6c6f20576f726c64");
@@ -1065,6 +1070,7 @@ exports.tests = [
     },
         {
       name: 'Uint8Array.setFromHex()',
+      mdn: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array/setFromHex',
       exec: function () {/*
         const arr1 = new Uint8Array([72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]);
         let arr2 = new Uint8Array(16);
